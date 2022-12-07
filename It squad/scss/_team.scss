@@ -1,0 +1,134 @@
+
+.team {
+   margin-top: 50px;
+   padding-top: 70px;
+}
+.team__title {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 72px;
+   color: #BFE55E;
+   text-transform: uppercase;
+}
+.wraper {
+   max-height: 1160px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.wraper__colum-left {
+   margin-right: 100px;
+   max-width: 346px;
+   width: 100%;
+}
+.wraper__columl-right {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.wraper__colum-img {
+   max-width: 800px;
+   width: 100%;
+}
+.wraper__colum-info {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 48px;
+   text-transform: uppercase;
+   color: #CBCBCB;
+}
+.wraper__colum-text {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 36px;
+   color: #FFFFFF;
+}
+@media (max-width: 1150px){
+   .wraper__colum-left {
+      margin-right: 90px;
+      max-width: 300px;
+      width: 100%;
+   }
+   .wraper__colum-info {
+      font-size: 35px;
+      line-height: 39px;
+   }
+   .wraper__colum-text {
+      font-size: 28px;
+      line-height: 30px;
+   }
+}
+@media (max-width: 1150px){
+   .wraper__colum-left {
+      margin-right: 90px;
+      max-width: 300px;
+      width: 100%;
+   }
+   .wraper__colum-info {
+      font-size: 35px;
+      line-height: 39px;
+   }
+   .wraper__colum-text {
+      font-size: 28px;
+      line-height: 30px;
+   }
+}
+@media (max-width: 1000px){
+   .wraper__colum-left {
+      margin-right: 90px;
+      max-width: 300px;
+      width: 100%;
+   }
+   .wraper__colum-info {
+      font-size: 32px;
+      line-height: 34px;
+   }
+   .wraper__colum-text {
+      font-size: 26px;
+      line-height: 28px;
+   }
+}
+@media (max-width: 900px){
+   .team{
+      margin-top: 90px;
+   }
+   .wraper__colum-left {
+      display: none;
+   }
+   .wraper__colum-img {
+      max-width: 100%;
+      width: 100%;
+   }
+   .wraper__colum-info {
+      font-size: 40px;
+   line-height: 48px;
+   }
+   .wraper__colum-text {
+      font-size: 30px;
+   line-height: 36px;
+   }
+}
+@media (max-width: 550px){
+   .team{
+      margin-top: 90px;
+   }
+   .team__title{
+      font-size: 30px;
+line-height: 36px;
+   }
+   .wraper__colum-img {
+      max-width: 100%;
+      width: 100%;
+   }
+   .wraper__colum-info {
+      font-size: 20px;
+      line-height: 24px;
+   }
+   .wraper__colum-text {
+      font-size: 20px;
+      line-height: 24px;
+   }
+}

@@ -1,0 +1,236 @@
+
+.footer {
+   padding: 70px 0;
+   border-top: 1px solid #CBCBCB;
+   border-bottom: 1px solid #CBCBCB;
+}
+.footer__flexbox {
+   display: flex;
+   justify-content: space-between;
+}
+.footer__title {
+   max-width: 570px;
+   width: 100%;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 72px;
+   text-transform: uppercase;
+   color: #BFE55E;
+}
+.footer__info {
+   max-width: 570px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 48px;
+   text-transform: uppercase;
+   color: #CBCBCB;
+}
+.footer__list {
+   padding-left: 0;
+   display: flex;
+   list-style: none;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.footer__lists {
+padding-left: 0;
+}
+.footer__item {
+   margin-bottom: 2px;
+   list-style: none;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   color: #FFFFFF;
+}
+.footer__link {
+   text-decoration: none;
+   margin-bottom: 2px;
+   list-style: none;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   color: #FFFFFF;
+
+}
+.footer__button {
+   display: block;
+   margin: 0 auto;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   text-transform: lowercase;
+   color: #BFE55E;
+   background: none;
+   border: none;
+   &:hover{
+      transition: .3s ease;
+      text-decoration: underline;
+   }
+}
+.footer__end {
+   margin: 1px 0;
+   display: block;
+   text-align: right;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 18px;
+   color: #CBCBCB;
+}
+@media (max-width:1210px){
+   .footer__title {
+      display: block;
+      max-width: 520px;
+      font-size: 60px;
+      line-height: 72px;
+   }
+   .footer__info {
+      max-width: 520px;
+      font-size: 40px;
+      line-height: 48px;
+   }
+}
+@media (max-width:1110px){
+   .footer__title {
+      display: block;
+      width: 470px;
+      font-size: 55px;
+      line-height: 65px;
+   }
+   .footer__info {
+      max-width: 470px;
+      font-size: 37px;
+      line-height: 43px;
+   }
+}
+@media (max-width:1010px){
+   .footer__title {
+      display: block;
+      width: 420px;
+      font-size: 50px;
+      line-height: 60px;
+   }
+   .footer__info {
+      max-width: 420px;
+      font-size: 35px;
+      line-height: 40px;
+   }
+}
+@media (max-width:910px){
+   .footer__title {
+      display: block;
+      width: 370px;
+      font-size: 45px;
+      line-height: 55px;
+   }
+   .footer__info {
+      max-width: 370px;
+      font-size: 32px;
+      line-height: 35px;
+   }
+   .footer__item {
+      font-size: 16px;
+      line-height: 20px;
+   }
+   .footer__link {
+      font-size: 16px;
+      line-height: 20px;
+   
+   }
+}
+@media (max-width:800px){
+   .footer__title {
+      display: block;
+      width: 320px;
+      font-size: 40px;
+      line-height: 50px;
+   }
+   .footer__info {
+      max-width: 320px;
+      font-size: 28px;
+      line-height: 32px;
+   }
+   .footer__list {
+      columns: 2;
+      justify-content: space-around;
+   }
+   .footer__item {
+      font-size: 16px;
+      line-height: 20px;
+   }
+   .footer__link {
+      font-size: 16px;
+      line-height: 20px;
+   }
+}
+@media (max-width:700px){
+   .footer__flexbox{
+      display: block;
+   }
+   .footer__title {
+      display: block;
+      width: 450px;
+      font-size: 60px;
+      line-height: 75px;
+   }
+   .footer__info {
+      max-width: 570px;
+      font-size: 28px;
+      line-height: 32px;
+   }
+   .footer__list{
+      flex-direction: column;
+   }
+   .footer__lists{
+      margin-bottom: 15px;
+   }
+   .footer__item {
+      font-size: 16px;
+      line-height: 20px;
+   }
+   .footer__link {
+      font-size: 16px;
+      line-height: 20px;
+   }
+}
+@media (max-width:450px){
+   .footer__flexbox{
+      display: block;
+   }
+   .footer__title {
+      display: block;
+      max-width: 450px;
+      width: 300px;
+      font-size: 30px;
+      line-height: 36px;
+   }
+   .footer__info {
+      margin-bottom: 35px;
+      max-width: 570px;
+      font-size: 20px;
+      line-height: 24px;
+   }
+   .footer__list{
+      flex-direction: column;
+   }
+   .footer__lists{
+      margin-bottom: 10px;
+   }
+   .footer__item {
+      font-size: 16px;
+      line-height: 20px;
+   }
+   .footer__link {
+      font-size: 16px;
+      line-height: 20px;
+   }
+   .footer {
+      padding: 35px 0;
+   }
+}
